@@ -1,15 +1,18 @@
 <template>
   <Layout class="layout-homepage">
     <home-intro-simple />
+    <home-how-it-work-simple />
   </Layout>
 </template>
 
 <script>
 import HomeIntroSimple from "@/components/home/HomeIntroSimple.vue";
+import HomeHowItWorkSimple from "@/components/home/HomeHowItWorkSimple.vue";
 
 export default {
   components: {
-    HomeIntroSimple
+    HomeIntroSimple,
+    HomeHowItWorkSimple
   }
 };
 </script>

@@ -4,6 +4,7 @@
 import "~/assets/style/index.scss";
 
 import DefaultLayout from "~/layouts/Default.vue";
+import Card from "~/components/Card";
 
 import Typography from "typography";
 
@@ -34,6 +35,7 @@ const typography = new Typography({
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
+  Vue.component("Card", Card);
 
   head.style.push({
     type: "text/css",
