@@ -3,6 +3,7 @@
     <div class="header-inner container flex gap-30">
       <Logo />
       <Nav class="flex-fit" />
+      <SearchForm />
       <nav class="header-actions flex">
         <ToggleTheme />
       </nav>
@@ -13,11 +14,13 @@
 <script>
 import Logo from "./Logo";
 import Nav from "./Nav";
+import SearchForm from "@/components/SearchForm.vue";
 import ToggleTheme from "@/components/ToggleTheme.vue";
 
 export default {
   components: {
     Logo,
+    SearchForm,
     Nav,
     ToggleTheme
   }

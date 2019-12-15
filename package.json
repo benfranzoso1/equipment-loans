@@ -9,7 +9,8 @@
   "dependencies": {
     "gridsome": "^0.7.0",
     "gridsome-plugin-sass-resources-loader": "0.0.3",
-    "typography": "^0.16.18"
+    "typography": "^0.16.18",
+    "docsearch.js": "^2.6.2"
   },
   "devDependencies": {
     "node-sass": "^4.13.0",

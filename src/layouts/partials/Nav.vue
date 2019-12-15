@@ -13,7 +13,7 @@
     </g-link>
 
     <g-link to="/blog/">
-      <span class="main-nav__label">Contact</span>
+      <span class="main-nav__label">Wiki</span>
     </g-link>
   </nav>
 </template>
