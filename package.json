@@ -9,6 +9,7 @@
   "dependencies": {
     "gridsome": "^0.7.0",
     "gridsome-plugin-sass-resources-loader": "0.0.3",
+    "babel-runtime": "^6.26.0",
     "typography": "^0.16.18",
     "docsearch.js": "^2.6.2"
   },
