@@ -28,25 +28,14 @@
       </h1>
 
       <p class="intro__lead lead post mb">
-        Gridsome makes it easy for developers to build modern websites, apps &
-        PWAs that are
-        <g-link to="/docs/fast-by-default/">fast by default</g-link> 🚀
+        We make it easy for business owners to access funds fast, so they can
+        get back to what matters the most 🚀
       </p>
 
       <p class="intro__links">
         <g-link to="/docs/" class="button primary button--large">
           <span>Get started</span>
         </g-link>
-      </p>
-
-      <p class="intro__info">
-        <span>Open-source MIT Licensed. </span>
-        <a
-          href="//github.com/gridsome/gridsome"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
       </p>
     </div>
   </Section>
