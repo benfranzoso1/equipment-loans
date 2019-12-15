@@ -13,16 +13,16 @@
             Farmers
           </div>
           <div v-else-if="currentText == 2" key="2">
-            Trucking
+            Trucking Companys
           </div>
           <div v-else-if="currentText == 3" key="3">
-            Markdown files
+            test
           </div>
           <div v-else-if="currentText == 4" key="4">
-            Modern PWAs
+            tst
           </div>
           <div v-else-if="currentText == 5" key="5">
-            Serverless Apps
+            test
           </div>
         </transition>
       </h1>
