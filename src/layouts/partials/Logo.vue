@@ -1,16 +1,21 @@
 <template>
   <div class="logo" @contextmenu="rightClick" oncontextmenu="return false;">
     <g-link class="logo__link" to="/" title="Back to home">
-      <Logo class="logo__svg" alt="Equipment-Loans.com" />
+      <Logo class="logo__svg hide-for-small" alt="Equipment-Loans.com" />
+      <LogoSmall
+        class="logo__svg show-for-small logo__svg--small"
+        alt="Equipment-Loans.com"
+      />
     </g-link>
   </div>
 </template>
-
 <script>
 import Logo from "~/assets/images/logo.svg";
+import LogoSmall from "~/assets/images/logo-small.svg";
 export default {
   components: {
-    Logo
+    Logo,
+    LogoSmall
   },
   methods: {
     rightClick() {
@@ -26,9 +31,6 @@ export default {
   &__svg {
     height: auto;
     margin-top: -3px;
-    &--small {
-      max-width: 25px;
-    }
   }
 }
 </style>
