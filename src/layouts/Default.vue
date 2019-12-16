@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" dark>
     <Header />
-    <main id="main" :class="mainClass">
+    <main id="main" class="mainClass">
       <slot />
     </main>
   </div>
@@ -11,6 +11,7 @@
 import Header from "./partials/Header";
 
 export default {
+  props: ["primary-bg"],
   components: {
     Header
   },
@@ -23,3 +24,18 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#app main {
+  flex: 1;
+}
+.main--bg-teritary {
+  background-color: var(--bg-teritary);
+}
+</style>

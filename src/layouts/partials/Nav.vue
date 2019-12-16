@@ -1,11 +1,11 @@
 <template>
   <nav class="main-nav flex gap-15">
     <g-link to="/docs/">
-      <span class="main-nav__label">Apply</span>
+      <span class="main-nav__label">Get Financing</span>
     </g-link>
 
     <g-link to="/starters/">
-      <span class="main-nav__label">About</span>
+      <span class="main-nav__label">Industries</span>
     </g-link>
 
     <g-link to="/plugins/">

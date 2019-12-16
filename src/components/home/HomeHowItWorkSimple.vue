@@ -1,80 +1,83 @@
 <template>
   <Section class="works">
-    <div class="grid-cols grid-cols--gap-large grid-cols--full-md">
-      <Card title="Apply">
-        <h4>Test</h4>
-        <p>put test content</p>
-        <h4>Test</h4>
-        <p>put test contnet</p>
-        <h4>Test</h4>
-        <p>put test contnet</p>
+    <div class="container">
+      <div class="grid-cols grid-cols--gap-large grid-cols--full-md">
+        <Card title="Apply">
+          <h4>Test</h4>
+          <p>put test content</p>
+          <h4>Test</h4>
+          <p>put test contnet</p>
+          <h4>Test</h4>
+          <p>put test contnet</p>
 
-        <template slot="outer">
-          <Dots class="hide-for-small" />
-          <Dots class="dots--vertical show-for-small" />
-        </template>
-      </Card>
+          <template slot="outer">
+            <Dots class="hide-for-small" />
+            <Dots class="dots--vertical show-for-small" />
+          </template>
+        </Card>
 
-      <Card title="Fund" class="text-center flex-align-middle">
-        <div class="works__logo">
-          <LogoSmall />
-          <div class="works__pulse-bg"></div>
-          <div class="works__pulse-bg"></div>
-        </div>
+        <Card title="Fund" class="text-center flex-align-middle">
+          <div class="works__logo">
+            <LogoSmall />
+            <div class="works__pulse-bg"></div>
+            <div class="works__pulse-bg"></div>
+          </div>
 
-        <p class="works__powered-by">
-          Powered by <br /><strong>Amur 🐆</strong>
-        </p>
+          <p class="works__powered-by">
+            Powered by <br /><strong>Amur 🐆</strong>
+          </p>
 
-        <ul class="works__tools flex gap-15 text-center flex--center">
-          <li>Equipment-Loans.com</li>
-        </ul>
+          <ul class="works__tools flex gap-15 text-center flex--center">
+            <li>Equipment-Loans.com</li>
+          </ul>
 
-        <template slot="outer">
-          <Dots class="hide-for-small" />
-          <Dots class="dots--vertical show-for-small" />
-        </template>
-      </Card>
+          <template slot="outer">
+            <Dots class="hide-for-small" />
+            <Dots class="dots--vertical show-for-small" />
+          </template>
+        </Card>
 
-      <Card title="Repeat">
-        <h4>Filler content in here</h4>
-        <p>
-          <g-link to="/docs/deploy-to-netlify/">filler</g-link>,
-          <g-link to="/docs/deploy-to-amplify/">filler</g-link>,
-          <g-link to="/docs/deploy-to-zeit-now/">filler</g-link>,
-          <g-link to="/docs/deploy-to-amazon-s3/">Filler</g-link>, filler
-          content here.
-        </p>
+        <Card title="Repeat">
+          <h4>Filler content in here</h4>
+          <p>
+            <g-link to="/docs/deploy-to-netlify/">filler</g-link>,
+            <g-link to="/docs/deploy-to-amplify/">filler</g-link>,
+            <g-link to="/docs/deploy-to-zeit-now/">filler</g-link>,
+            <g-link to="/docs/deploy-to-amazon-s3/">Filler</g-link>, filler
+            content here.
+          </p>
 
-        <ul class="bullet-list mb">
-          <li>
-            <Bullet /><g-link to="/docs/fast-by-default/#pre-rendered-html"
-              >Test</g-link
-            >
-          </li>
-          <li>
-            <Bullet /><g-link
-              to="/docs/fast-by-default/#automatic-code-splitting"
-              >Test</g-link
-            >
-          </li>
-          <li>
-            <Bullet /><g-link to="/docs/fast-by-default/#the-prpl-pattern"
-              >Test</g-link
-            >
-          </li>
-          <li>
-            <Bullet /><g-link to="/docs/fast-by-default/#smart-link-prefetching"
-              >Test</g-link
-            >
-          </li>
-          <li>
-            <Bullet /><g-link to="/docs/fast-by-default/#progressive-images"
-              >Test</g-link
-            >
-          </li>
-        </ul>
-      </Card>
+          <ul class="bullet-list mb">
+            <li>
+              <Bullet /><g-link to="/docs/fast-by-default/#pre-rendered-html"
+                >Test</g-link
+              >
+            </li>
+            <li>
+              <Bullet /><g-link
+                to="/docs/fast-by-default/#automatic-code-splitting"
+                >Test</g-link
+              >
+            </li>
+            <li>
+              <Bullet /><g-link to="/docs/fast-by-default/#the-prpl-pattern"
+                >Test</g-link
+              >
+            </li>
+            <li>
+              <Bullet /><g-link
+                to="/docs/fast-by-default/#smart-link-prefetching"
+                >Test</g-link
+              >
+            </li>
+            <li>
+              <Bullet /><g-link to="/docs/fast-by-default/#progressive-images"
+                >Test</g-link
+              >
+            </li>
+          </ul>
+        </Card>
+      </div>
     </div>
   </Section>
 </template>

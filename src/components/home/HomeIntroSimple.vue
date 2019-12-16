@@ -4,27 +4,7 @@
       <div class="intro__message mb" hidden></div>
 
       <h1 class="intro__title">
-        <span>Equipment Loans Made For</span>
-        <transition name="rotate">
-          <div v-if="currentText == 0" key="0">
-            Construction Companys
-          </div>
-          <div v-else-if="currentText == 1" key="1">
-            Farmers
-          </div>
-          <div v-else-if="currentText == 2" key="2">
-            Trucking Companys
-          </div>
-          <div v-else-if="currentText == 3" key="3">
-            test
-          </div>
-          <div v-else-if="currentText == 4" key="4">
-            tst
-          </div>
-          <div v-else-if="currentText == 5" key="5">
-            test
-          </div>
-        </transition>
+        Equipment Loans Made Fast & Easy
       </h1>
 
       <p class="intro__lead lead post mb">
@@ -40,24 +20,6 @@
     </div>
   </Section>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      currentText: 0
-    };
-  },
-  mounted() {
-    this._counter = setInterval(() => {
-      this.currentText = (this.currentText + 1) % 6;
-    }, 1500);
-  },
-  destroyed() {
-    clearTimeout(this._counter);
-  }
-};
-</script>
 
 <style lang="scss">
 .intro {
