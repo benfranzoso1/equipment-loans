@@ -1,6 +1,7 @@
 <template>
   <Section class="works">
     <div class="container">
+      <div class="text-center"><h2>The Steps Are Easy</h2></div>
       <div class="grid-cols grid-cols--gap-large grid-cols--full-md">
         <Card title="Apply">
           <h4>Test</h4>
